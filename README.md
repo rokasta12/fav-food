@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fav-Food Form with Next.js, Tailwind CSS, Zod, and React Hook Form
 
-## Getting Started
+This project demonstrates how to build a simple form in Next.js using Tailwind CSS for styling, Zod for form validation, and React Hook Form for managing form state. The form allows users to select their favorite fast food and write a description explaining why they like it.
 
-First, run the development server:
+![SS](https://github.com/rokasta12/fav-food/assets/44666921/a0887e74-53c5-4abe-9eb7-85dfb09416e9)
+
+## Prerequisites
+- Basic understanding of React and TypeScript
+- Familiarity with TailwindCSS
+- Node and npm/yarn installed in your system
+
+## Setting Up
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/rokasta12/fav-food.git
+
+cd fav-food
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+yarn install
+# or
+npm install
+```
+Start the development server:
 
-## Learn More
+```bash
+yarn dev
+# or
+npm run dev
+```
+Open http://localhost:3000 with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Explanation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The form is contained in the `FavFoodForm.tsx` component. This component uses the `useForm` hook from `react-hook-form` to manage form state and validation. The validation schema is defined with Zod and passed to `useForm` through the `zodResolver`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The form data type, `FavFoodFormType`, is inferred from the validation schema. The `onSubmit` prop is a function that will be called with the form data when the form is submitted.
 
-## Deploy on Vercel
+On form submission, the form data is displayed as a JSON alert in the browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Live Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can access the live demo at [fav-food.vercel.app](https://fav-food.vercel.app)
+
+## Full Tutorial
+
+For a step-by-step guide on how this project was created, check out the tutorial on [Medium]([https://medium.com](https://medium.com/@celayirbedirhan/creating-forms-with-tailwindcss-zod-and-react-hook-form-in-typescript-248e44a951e7)).
+
+## Feedback
+
+Feel free to [file an issue](https://github.com/rokasta12/fav-food/issues) if you have any questions or suggestions for improvement.
+
+
