@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a simple form in Next.js using Tailwind CSS for styling, Zod for form validation, and React Hook Form for managing form state. The form allows users to select their favorite fast food and write a description explaining why they like it.
 
-![SS](https://github.com/rokasta12/fav-food/assets/44666921/a0887e74-53c5-4abe-9eb7-85dfb09416e9)
+![Group 13915](https://github.com/rokasta12/fav-food/assets/44666921/c7b8dc67-ffb9-49d1-847b-613354408b82)
 
 ## Prerequisites
 - Basic understanding of React and TypeScript
