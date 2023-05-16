@@ -49,7 +49,7 @@ You can access the live demo at [fav-food.vercel.app](https://fav-food.vercel.ap
 
 ## Full Tutorial
 
-For a step-by-step guide on how this project was created, check out the tutorial on [Medium]([https://medium.com](https://medium.com/@celayirbedirhan/creating-forms-with-tailwindcss-zod-and-react-hook-form-in-typescript-248e44a951e7)).
+For a step-by-step guide on how this project was created, check out the tutorial on [Medium](https://medium.com/@celayirbedirhan/creating-forms-with-tailwindcss-zod-and-react-hook-form-in-typescript-248e44a951e7).
 
 ## Feedback
 
